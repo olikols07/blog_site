@@ -2,10 +2,11 @@
 
 This is a simple guide on how to install docker on a raspberry pi
 
-Make sure you have sudo access to the PI!!
+> [!CAUTION]
+> Make sure you have sudo access to the PI!!
 
 To install docker itself i recommed using the 
-<a href="https://docs.docker.com/engine/install/">documentation from docker</a> the documentation has a convenience script seen bellow
+[documentation from docker](https://docs.docker.com/engine/install/) the documentation has a convenience script seen bellow
 
 ```
 curl -fsSL https://get.docker.com -o get-docker.sh
