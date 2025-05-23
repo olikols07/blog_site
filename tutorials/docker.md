@@ -79,7 +79,7 @@ services:
     restart: unless-stopped
 ```
 
-Save and exit and now we are ready to start pihole with
+Save and exit and now we are ready to start pihole with this will create a configuration directory
 
 ```
 docker compose up -d
