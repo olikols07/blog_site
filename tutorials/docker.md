@@ -1,4 +1,4 @@
-## Docker installation
+# Docker installation
 
 This is a simple guide on how to install docker on a raspberry pi
 
@@ -26,7 +26,7 @@ And then instaid of rebooting we reload the changes
 newgrp docker
 ```
 
-## Example containers and configuration
+# Example containers and configuration
 
 In my opinion the best way to do docker compose files is a structure like this
 
@@ -40,7 +40,7 @@ sudo chown $USER:$USER /docker
 sudo ln -s /docker
 ```
 
-# Creating a pihole installation
+## Creating a pihole installation
 
 folowing the structure we make a new directory in /docker
 
